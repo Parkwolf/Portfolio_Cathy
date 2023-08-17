@@ -67,7 +67,11 @@ body {
     width: 11.875rem;
     height: 11.25rem;
   }
- 
+ /*competence langue*/
+ .language-chart {
+    max-width: 600px;
+    margin: 0 auto;
+}
 /* FOOTER */
 #footer {
     background-color: black; 
