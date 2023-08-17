@@ -1,6 +1,6 @@
-// Données de test
-const languages = ["Anglais", "Français", "Espagnol", "Coréen"];
-const proficiencyLevels = [100, 75, 50, 80];
+// Données de niveau
+const languages = ["Anglais", "Creole", "Français", "Espagnol", "Coréen"];
+const proficiencyLevels = [100, 100, 100, 50, 80];
 
 // Configuration du graphique
 const ctx = document.getElementById("languageChart").getContext("2d");
