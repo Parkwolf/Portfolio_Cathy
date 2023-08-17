@@ -47,6 +47,7 @@ body {
 .imageAboutPage {
     width: 100%;
 }
+/*Section Competence*/
 .skills {
     max-width: 68.75rem;
     margin: auto;
@@ -66,6 +67,7 @@ body {
     width: 11.875rem;
     height: 11.25rem;
   }
+ 
 /* FOOTER */
 #footer {
     background-color: black; 
