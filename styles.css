@@ -43,11 +43,11 @@ body {
     transform: translate(-50%, -50%);
     color: black;
 }
-/* about section image css */
+/* section image css */
 .imageAboutPage {
     width: 100%;
 }
-/*Section Competence*/
+/*section competence*/
 .skills {
     max-width: 68.75rem;
     margin: auto;
