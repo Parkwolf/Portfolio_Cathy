@@ -11,83 +11,98 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
-<body>
-    <!--mini banner -->
-    <nav class="mini-nav">
-        <ul>
-            <li><a href="#presentation">Présentation</a></li>
-            <li><a href="#projet">Mes Projets</a></li>
-            <li><a href="#competence">Compétence</a></li>
-            <li><a href="#footer">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-text">
-                    <h2 class="img_title">Bonjour je m'appelle Cathy</h2>
-                    <p class="img_desc">Bienvenue sur mon Portfolio</p>
-                </div>
+<html>
+<!--mini banner -->
+<nav class="mini-nav">
+    <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#projet">Mes Projets</a></li>
+        <li><a href="#competence">Compétence</a></li>
+        <li><a href="#footer">Contact</a></li>
+    </ul>
+</nav>
+<!-- main banner -->
+<section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 img-text">
+                <h2 class="img_title">Bonjour je m'appelle Cathy</h2>
+                <p class="img_desc">Bienvenue sur mon Portfolio</p>
             </div>
         </div>
-    </section>
-    <!--Presentation-->
-    <section id="presentation">
-        <h2>Présentation</h2>
-        <p>Bienvenue sur ma page. Ci-dessous, vous trouverez un graphique de blablablabla</p>
-    </section>
-    <!--Competence-->
-    <section class="skills" id="competence">
-        <h2 class="skill-header">Mes Compétences en Code et Gestion</h2>
-        <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-                <img src="assets/image/html.png" alt="html" loading="lazy" class="icon " />
-                <img src="assets/image/css.png" alt="css" loading="lazy" class="icon " />
-                <img src="assets/image/js.png" alt="javascript" loading="lazy" class="icon " />
-            </div>
+    </div>
+</section>
+<!--Presentation-->
+<section id="presentation" class="fond">
+    <h2>Présentation</h2>
+    <p>Bienvenue sur ma page. Ci-dessous, vous trouverez un graphique de blablablabla Le Lorem Ipsum est simplement
+        du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux
+        texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des
+        morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq
+        siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a
+        été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem
+        Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus
+        PageMaker.
+        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+        Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme
+        assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait
+        que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en
+        soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des
+        passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de
+        texte, comme Aldus PageMaker.</p>
+</section>
+<!--Competence-->
+<section class="skills" id="competence">
+    <h2 class="skill-header">Mes Compétences en Code et Gestion</h2>
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img src="assets/image/html.png" alt="html" loading="lazy" class="icon " />
+            <img src="assets/image/css.png" alt="css" loading="lazy" class="icon " />
+            <img src="assets/image/js.png" alt="javascript" loading="lazy" class="icon " />
+        </div>
 
-            <div class="second-set animate__animated animate__pulse">
-                <img src="assets/image/github.png" alt="github" class="icon " />
-                <img src="assets/image/react.png" alt="react" class="icon" />
-                <img src="assets/image/trello.png" alt="trello" class="icon " />
-            </div>
-            <div class="second-set animate__animated animate__pulse">
-                <img src="assets/image/adobe.png" alt="adobe photo" class="icon " />
-                <img src="assets/image/powerpoint.png" alt="porwerpoint" class="icon" />
-                <img src="assets/image/excel.png" alt="excel" class="icon " />
-            </div>
+        <div class="second-set animate__animated animate__pulse">
+            <img src="assets/image/github.png" alt="github" class="icon " />
+            <img src="assets/image/react.png" alt="react" class="icon" />
+            <img src="assets/image/trello.png" alt="trello" class="icon " />
         </div>
-    </section>
-    <!--Competence langue-->
-    <section>
-        <h2 class="skill-header skills">Mes Compétences en Langue</h2>
-        <div class="language-chart">
-            <canvas id="languageChart"></canvas>
+        <div class="second-set animate__animated animate__pulse">
+            <img src="assets/image/adobe.png" alt="adobe photo" class="icon " />
+            <img src="assets/image/powerpoint.png" alt="porwerpoint" class="icon" />
+            <img src="assets/image/excel.png" alt="excel" class="icon " />
         </div>
-    </section>
-    <section id="projet">
-        <h2 class="skills">Mes Projets</h2>
-        <div class="masonry">
-            <div><img src="/assets/image/Booki.png" alt></div>
-            <div><img src="/assets/image/SophieBluel.png" alt></div>
-            <div><img src="/assets/image/Qwenta.png" alt></div>
-            <div><img src="/assets/image/Nina.jpg" alt></div>
-            <div><img src="/assets/image/Kasa.png" alt></div>
-            <div><img src="/assets/image/Grimoire.png" alt></div>
+    </div>
+</section>
+<!--Competence langue-->
+<section>
+    <h2 class="skill-header skills">Mes Compétences en Langue</h2>
+    <div class="language-chart">
+        <canvas id="languageChart"></canvas>
+    </div>
+</section>
+<section id="projet">
+    <h2 class="skills">Mes Projets</h2>
+    <div class="masonry">
+        <div><img src="/assets/image/Booki.png" alt></div>
+        <div><img src="/assets/image/SophieBluel.png" alt></div>
+        <div><img src="/assets/image/Qwenta.png" alt></div>
+        <div><img src="/assets/image/Nina.jpg" alt></div>
+        <div><img src="/assets/image/Kasa.png" alt></div>
+        <div><img src="/assets/image/Grimoire.png" alt></div>
+    </div>
+</section>
+<!-- footer section-->
+<footer id="footer">
+    <div class="social-icons">
+        <!-- social media icons -->
+        <div>
+            <a href="https://github.com/Parkwolf" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:cathyhegesippe@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
         </div>
-    </section>
-    <!-- footer section-->
-    <footer id="footer">
-        <div class="social-icons">
-            <!-- social media icons -->
-            <div>
-                <a href="https://github.com/Parkwolf" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:cathyhegesippe@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 </body>
 <script src="./chart.js"></script>
+<script src="modal.js"></script>
 
 </html>
