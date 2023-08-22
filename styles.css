@@ -116,7 +116,7 @@ body {
     object-fit: cover;
     border-radius: inherit;
 }
-/* Styles for modals */
+/* Styles modals */
 .modal {
     display: none;
     position: fixed;
