@@ -116,28 +116,4 @@ body {
     object-fit: cover;
     border-radius: inherit;
 }
-/* Styles modals */
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999; /* Make sure it's on top of everything */
-  }
-  
-  .modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 80%;
-  }
-  
-  .close-modal-button {
-    margin-top: 10px;
-  }
+
