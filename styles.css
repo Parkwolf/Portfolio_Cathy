@@ -24,7 +24,7 @@ body {
 /* background image */
 .bgimage {
     height:100vh;
-    background: url('assets/image/02661_800x480.jpg');
+    background: url('./assets/image/02661_800x480.jpg');
     background-size:cover;
     position:relative;
 }
